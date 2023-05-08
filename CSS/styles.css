@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=BioRhyme:wght@400;700&family=News+Cycle:wght@400;700&family=Spinnaker&display=swap");
+h1 {
+  font-family: "BioRhyme", serif, "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+}
+h2 {
+  font-family: "News Cycle", sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+  font-family: "Spinnaker", sans-serif, "Franklin Gothic Medium", "Arial Narrow",
+    Arial, sans-serif;
+}
+
+:root {
+  --background-light-blue: #c4dae1;
+  --background-gradient: linear-gradient(
+    to bottom,
+    var(--background-light-blue),
+    transparent
+  );
+  --my-green: #00ae70;
+  --my-white: #fbfffc;
+  --my-dark-blue: #294960;
+}
+
+body {
+  background-image: var(--background-gradient);
+  background-repeat: no-repeat;
+}
+
+.button {
+  background-color: var(--my-green);
+  color: var(--my-white);
+  padding: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 3px;
+}
+
+header {
+}
+
+footer {
+  background-color: var(--my-dark-blue);
+  color: var(--my-white);
+}
+
+li,
+a {
+  color: var(--my-white);
+  text-decoration: none;
+  list-style-type: none;
+}
