@@ -27,6 +27,7 @@ p {
 body {
   background-image: var(--background-gradient);
   background-repeat: no-repeat;
+  max-width: 100%;
 }
 
 .button {
@@ -95,4 +96,16 @@ a {
   color: var(--my-white);
   text-decoration: none;
   list-style-type: none;
+}
+
+.banner-flex {
+  background-color: var(--my-dark-blue);
+  color: var(--my-white);
+  padding: 4px;
+}
+
+.banner-pic img {
+  max-width: 100%;
+  padding: 0px;
+  margin: auto;
 }
