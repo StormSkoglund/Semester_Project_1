@@ -22,6 +22,7 @@ p {
   --my-white: #fbfffc;
   --my-dark-blue: #294960;
   --my-black: #111d26;
+  --my-shadow: 0px 3px 8px var(--my-black);
 }
 
 body {
@@ -29,7 +30,7 @@ body {
   background-repeat: no-repeat;
   max-width: 100%;
 }
-
+/*button and its animations*/
 .button {
   background-color: var(--my-green);
   color: var(--my-white);
@@ -37,13 +38,20 @@ body {
   font-weight: bold;
   text-decoration: none;
   margin: 3px;
+  font-family: "News Cycle", sans-serif, Tahoma, Geneva;
+}
+
+.button:hover {
+  transition-duration: 200ms;
+  text-shadow: var(--my-shadow);
+  padding-bottom: 20px;
 }
 /*header*/
 header {
   background-color: var(--my-white);
   border: solid;
   border-width: 3px;
-  box-shadow: 0px 3px 8px var(--my-black);
+  box-shadow: var(--my-shadow);
 }
 
 header li {
@@ -52,15 +60,15 @@ header li {
   font-family: "Spinnaker", sans-serif, "Franklin Gothic Medium", "Arial Narrow",
     Arial, sans-serif;
   display: inline;
-  padding: 4px;
-  font-size: 7px;
+  padding: 6px;
+  font-size: 15px;
   font-weight: bold;
 }
 
 header ul {
   border: solid var(--my-black);
   border-radius: 5px;
-  padding: 4px;
+  padding: 5px;
 }
 
 .nav-header {
@@ -75,14 +83,35 @@ header ul {
   flex-wrap: wrap;
 }
 
+.nav-flex li {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: baseline;
+}
+
 .hamburger-menu {
   max-width: 50px;
   max-height: 50px;
-  margin: 4px;
+  margin: 15px;
 }
 
 li:hover {
   text-shadow: 0px 5px 4px var(--my-green);
+}
+/*banner*/
+.banner-flex {
+  background-color: var(--my-dark-blue);
+  color: var(--my-white);
+  padding: 8px;
+  box-shadow: var(--my-shadow);
+}
+
+.banner-pic img {
+  max-width: 100%;
+  padding: 0px;
+  margin: auto;
+  box-shadow: var(--my-shadow);
 }
 
 /*footer*/
@@ -98,14 +127,13 @@ a {
   list-style-type: none;
 }
 
-.banner-flex {
-  background-color: var(--my-dark-blue);
-  color: var(--my-white);
-  padding: 4px;
-}
+/*Media queries*/
 
-.banner-pic img {
-  max-width: 100%;
-  padding: 0px;
-  margin: auto;
+@media only screen and (min-width: 600px) {
+  .nav-flex li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
 }
