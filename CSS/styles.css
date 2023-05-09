@@ -131,9 +131,6 @@ a {
 
 @media only screen and (min-width: 600px) {
   .nav-flex li {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    display: inline;
   }
 }
