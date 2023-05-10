@@ -1,0 +1,49 @@
+@import "./styles.css";
+
+/* unique background image with gradient color overlay, I will add this on all pages, it isn't meant as a repetition */
+
+body {
+  background-image: var(--background-gradient),
+    url(/IMAGES/scientific-2040795_1280-min.jpg);
+}
+
+.ticket {
+  text-align: center;
+  font-size: smaller;
+  font-weight: bold;
+  background-color: var(--my-memo-yellow);
+  border-top-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  box-shadow: 0px 2px 20px;
+}
+
+.article1 {
+  background-color: var(--my-green);
+  padding: var(--my-padding);
+  color: var(--my-white);
+}
+.VRboy {
+  display: block;
+  max-width: 50vw;
+  margin: auto;
+  border-radius: 5%;
+  filter: saturate(65%);
+  box-shadow: var(--my-soft-shadow);
+}
+.article2 {
+  background-color: var(--my-red);
+  padding: var(--my-padding);
+  color: var(--my-white);
+}
+
+.teacher {
+  float: right;
+  max-width: 100px;
+}
+
+.article3 {
+  background-color: var(--my-dark-blue);
+  color: var(--my-white);
+  padding: var(--my-padding);
+  border-style: dashed;
+}
