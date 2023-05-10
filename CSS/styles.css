@@ -37,7 +37,7 @@ body {
   padding: 10px;
   font-weight: bold;
   text-decoration: none;
-  margin: 3px;
+
   font-family: "News Cycle", sans-serif, Tahoma, Geneva;
 }
 
@@ -118,19 +118,49 @@ li:hover {
 footer {
   background-color: var(--my-dark-blue);
   color: var(--my-white);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: left;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+.fontsize {
+  font-size: xx-large;
+}
+.navfooter {
+  font-family: "News Cycle", "Courier New", Courier, monospace;
+  font-size: xx-large;
+}
+
+.map img {
+  max-width: 150px;
+}
+
+.map img:hover {
+  max-width: 250px;
+  opacity: 90%;
 }
 
 li,
 a {
   color: var(--my-white);
   text-decoration: none;
-  list-style-type: none;
+  list-style-type: square;
 }
 
 /*Media queries*/
+/*header*/
 
 @media only screen and (min-width: 600px) {
   .nav-flex li {
     display: inline;
+  }
+  /*footer**/
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
   }
 }
