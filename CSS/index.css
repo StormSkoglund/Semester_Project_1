@@ -83,6 +83,22 @@ body {
   padding: var(--my-padding);
   border-radius: var(--my-radius);
 }
+
+.jungle {
+  max-width: 300px;
+  max-height: 100px;
+  float: right;
+  transform: rotate(250deg);
+  border-image-repeat: repeat;
+}
+
+.jungle:hover {
+  transform: rotate(310deg);
+  transition-duration: 200ms;
+  width: 100px;
+  transition-delay: 100ms;
+}
+
 .kids {
   background-size: 320px 300px;
   background-image: url(/IMAGES/markus-spiske-197281-min.jpg);
@@ -90,6 +106,7 @@ body {
   padding: var(--my-padding);
   background-repeat: no-repeat;
   color: var(--my-white);
+  border-radius: var(--my-radius);
 }
 
 .kids-text {
@@ -97,4 +114,5 @@ body {
   padding: var(--my-padding);
   filter: contrast(100%);
   color: var(--my-white);
+  border-radius: var(--my-radius);
 }
