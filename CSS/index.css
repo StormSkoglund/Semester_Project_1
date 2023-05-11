@@ -22,6 +22,7 @@ body {
   background-color: var(--my-green);
   padding: var(--my-padding);
   color: var(--my-white);
+  border-radius: var(--my-radius);
 }
 .VRboy {
   display: block;
@@ -35,6 +36,7 @@ body {
   background-color: var(--my-red);
   padding: var(--my-padding);
   color: var(--my-white);
+  border-radius: var(--my-radius);
 }
 
 .teacher {
@@ -47,6 +49,7 @@ body {
   color: var(--my-white);
   padding: var(--my-padding);
   border-style: dashed;
+  border-radius: var(--my-radius);
 }
 
 .prof {
@@ -54,6 +57,7 @@ body {
   margin: auto;
   background-color: #37607e;
   padding: var(--my-padding);
+  border-radius: var(--my-radius);
 }
 
 .info {
@@ -64,4 +68,33 @@ body {
   background-color: var(--my-dark-blue);
   color: var(--my-white);
   padding: var(--my-padding);
+  border-radius: var(--my-radius);
+}
+
+.evo {
+  max-width: 100%;
+  border-radius: var(--my-radius);
+  box-shadow: var(--my-soft-shadow);
+}
+
+.evotext {
+  background-color: var(--my-green);
+  color: var(--my-white);
+  padding: var(--my-padding);
+  border-radius: var(--my-radius);
+}
+.kids {
+  background-size: 320px 300px;
+  background-image: url(/IMAGES/markus-spiske-197281-min.jpg);
+  margin-top: 1em;
+  padding: var(--my-padding);
+  background-repeat: no-repeat;
+  color: var(--my-white);
+}
+
+.kids-text {
+  background-color: var(--my-red);
+  padding: var(--my-padding);
+  filter: contrast(100%);
+  color: var(--my-white);
 }
