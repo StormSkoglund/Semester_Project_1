@@ -11,10 +11,11 @@ body {
   text-align: center;
   font-size: smaller;
   font-weight: bold;
-  background-color: var(--my-memo-yellow);
-  border-top-left-radius: 40%;
-  border-bottom-right-radius: 40%;
+  background-color: var(--my-dark-blue);
+  border-top-left-radius: 5%;
+  border-bottom-right-radius: 5%;
   box-shadow: 0px 2px 20px;
+  color: var(--my-white);
 }
 
 .article1 {
@@ -46,4 +47,21 @@ body {
   color: var(--my-white);
   padding: var(--my-padding);
   border-style: dashed;
+}
+
+.prof {
+  display: block;
+  margin: auto;
+  background-color: #37607e;
+  padding: var(--my-padding);
+}
+
+.info {
+  max-width: 50%;
+  margin: auto;
+}
+.article4 {
+  background-color: var(--my-dark-blue);
+  color: var(--my-white);
+  padding: var(--my-padding);
 }

@@ -16,6 +16,13 @@ label {
     Arial, sans-serif;
 }
 
+input {
+  max-width: 130px;
+  border: solid;
+  border-color: var(--my-white);
+  border-radius: 2px;
+}
+
 :root {
   --background-light-blue: #79cbe4;
   --background-gradient: linear-gradient(
@@ -46,7 +53,6 @@ body {
   padding: 10px;
   font-weight: bold;
   text-decoration: none;
-
   font-family: "News Cycle", sans-serif, Tahoma, Geneva;
 }
 
@@ -114,6 +120,7 @@ li:hover {
   color: var(--my-white);
   padding: 8px;
   box-shadow: var(--my-shadow);
+  margin-bottom: 1em;
 }
 
 .banner-pic img {
