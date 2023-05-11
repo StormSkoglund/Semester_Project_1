@@ -100,11 +100,12 @@ body {
 }
 
 .kids {
-  background-size: 320px 300px;
+  max-width: 100vw;
   background-image: url(/IMAGES/markus-spiske-197281-min.jpg);
   margin-top: 1em;
   padding: var(--my-padding);
   background-repeat: no-repeat;
+  background-size: cover;
   color: var(--my-white);
   border-radius: var(--my-radius);
 }
