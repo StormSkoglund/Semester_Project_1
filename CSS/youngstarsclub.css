@@ -1,0 +1,41 @@
+@import "./styles.css";
+@import "./index.css";
+
+/* unique background image with gradient color overlay, I will add this on all pages, it isn't meant as a repetition */
+
+body {
+  background-image: var(--background-gradient),
+    url(/IMAGES/roberto-nickson-396152-min.jpg);
+}
+
+.curtain {
+  background-image: url(/IMAGES/red-g8095f2536_1280-min.jpg);
+  filter: saturate(50%);
+  color: var(--my-white);
+  padding: var(--my-padding);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 150px;
+  border-bottom-left-radius: 70px;
+  box-shadow: var(--my-soft-shadow);
+  margin-bottom: 2em;
+}
+
+.emblem {
+  display: block;
+  max-width: 50%;
+  margin: auto;
+}
+
+.border {
+  border: solid;
+}
+
+.img {
+  border: solid;
+  color: var(--my-red);
+  box-shadow: var(--my-soft-shadow);
+  max-width: 50%;
+  display: block;
+  margin: auto;
+}
