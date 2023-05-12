@@ -1,0 +1,39 @@
+@import "./styles.css";
+@import "./index.css";
+/* unique background image with gradient color overlay, I will add this on all pages, it isn't meant as a repetition */
+
+body {
+  background-image: var(--background-gradient),
+    url(/IMAGES/mavis-cw-164128-min.jpg);
+}
+
+.AI {
+  background-color: var(--my-white);
+}
+
+.robot {
+  max-width: 100%;
+}
+
+.evo2 {
+  background-color: var(--my-memo-green);
+}
+
+.sticker {
+  background-color: var(--my-memo-yellow);
+}
+
+.article4 {
+  margin-bottom: 1em;
+}
+
+.bio1 {
+  background-color: var(--my-red);
+  color: var(--my-white);
+}
+
+.med1 div {
+  background-color: var(--my-memo-yellow);
+  transform: rotate(2deg);
+  max-width: 80%;
+}

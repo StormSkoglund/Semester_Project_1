@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/CSS/styles.css" rel="stylesheet" />
+    <link href="/CSS/exhibitions.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,21 +18,35 @@
       content="This page contains an overview of some of the exhibitions in the Community Science Museum."
     />
   </head>
-  <body>
+  <body class="exhib">
     <main>
       <div>
         <h1>EXHIBITIONS</h1>
       </div>
-      <div>
-        <h2>ROBOTICS AND AI</h2>
-        <p>
-          The information revolution is here and robotics and artificial
-          intelligence are the science of the future. From useful home
-          applications of AI to industrial uses of robotics, the future is here.
-          You can even say hello and shake the hand of Rob the Robot.
-        </p>
-      </div>
-      <div>
+
+      <figure class="AI low-radius">
+        <img
+          src="/IMAGES/ROBOT.jpg"
+          alt="A picture of a human-looking robot. His face is half metal and half skin."
+          class="robot"
+        />
+        <div class="plain-text">
+          <h2>ROBOTICS AND AI</h2>
+          <figcaption>
+            The information revolution is here and robotics and artificial
+            intelligence are the science of the future. From useful home
+            applications of AI to industrial uses of robotics, the future is
+            here. You can even say hello and shake the hand of Rob the Robot.
+          </figcaption>
+        </div>
+      </figure>
+
+      <div class="article4">
+        <img
+          class="prof"
+          src="/IMAGES/Professor.png"
+          alt="A female professor wearing a white coat, she is smiling."
+        />
         <h2>Prof. Sheila Widnall</h2>
         <p>Massachusetts Institute of Technology</p>
         <h2>COSMOLOGY</h2>
@@ -56,39 +71,63 @@
           Museum Auditorium at 3:15 PM.
         </p>
       </div>
-      <div>
-        <h2>EVOLUTION</h2>
-        <p>
-          For centuries, philosophers and scientists have wrestled with the
-          question of our origins. Where do we come from and how did we get
-          here? Since Darwin proposed his theory of evolution we have had a
-          framework for exploring and understanding our place in this world.
-        </p>
-
-        <p>
-          Discover the origins of life on this planet and how the species we
-          know today have evolved our time. You can also take some time to meet
-          a few of the creatures who didn’t survive, including our Woolly
-          Mammoth, the Dodos, and a number of dinosaurs too.
-        </p>
-      </div>
-      <div>
-        <h2>BIOLOGY AND MEDICINE</h2>
-        <p> From micro-organisms to the human body, major breakthroughs in biology
-        are offering us unique insights into the great wonders of the tiny
-        world. For many people their life expectancy is much longer and their
-        quality of life much improved, thanks to the growth of our understanding
-        of medicine. Over a series of exhibits we explore the history of
-        medicine and take a look at some major breakthroughs including the
-        discovery of penicillin and the first heart transplant.</p>
-      <div>
+      <figure class="evo2 low-radius">
+        <img
+          src="/IMAGES/mammoth-1257288_1920-min.jpg"
+          alt="A skeleton of a mammoth, the picture is from the exhibitions"
+          class="img"
+        />
+        <div class="plain-text">
+          <h2>EVOLUTION</h2>
+          <figcaption>
+            For centuries, philosophers and scientists have wrestled with the
+            question of our origins. Where do we come from and how did we get
+            here? Since Darwin proposed his theory of evolution we have had a
+            framework for exploring and understanding our place in this world.
+            <p>
+              Discover the origins of life on this planet and how the species we
+              know today have evolved our time. You can also take some time to
+              meet a few of the creatures who didn’t survive, including our
+              Woolly Mammoth, the Dodos, and a number of dinosaurs too.
+            </p>
+          </figcaption>
+        </div>
+      </figure>
+      <figure class="med1 low-radius">
+        <img
+          src="/IMAGES/people-219985_1280-min.jpg"
+          alt="A scientist looking trough a microscope. He is wearing a white coat"
+          class="img"
+        />
+        <div class="plain-text">
+          <h2>BIOLOGY AND MEDICINE</h2>
+          <figcaption>
+            From micro-organisms to the human body, major breakthroughs in
+            biology are offering us unique insights into the great wonders of
+            the tiny world. <p> For many people their life expectancy is much longer
+            and their quality of life much improved, thanks to the growth of our
+            understanding of medicine. Over a series of exhibits we explore the
+            history of medicine and take a look at some major breakthroughs
+            including the discovery of penicillin and the first heart
+            transplant.</p>
+          </figcaption>
+        </div>
+      </figure>
+      <figure class="bio1 low-radius">
+        <img
+          src="/IMAGES/toa-heftiba-412579-min.jpg"
+          alt="A gigantic whale-skeleton, hanging from the museum-ceiling"
+          class="img"
+        />
+        <div class="plain-text">
         <h2>ECOLOGY</h2>
-        <p>
+        <figcaption>
           As we learn more and more of the impact humans are having on the
           planet, the more important it becomes that scientists explore how to
           create a sustainable future not just for humans but for the whole
           planet.
-        </p>
+        </figcaption>
+      </div>
       </div>
     </main>
   </body>

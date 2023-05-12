@@ -50,7 +50,25 @@ input {
   --my-red: #aa537c;
   --my-padding: 1.5em;
   --my-radius: 5px;
+  --my-memo-green: #ceedcd;
 }
+
+/*reuasable article styling*/
+
+.img {
+  max-width: 100%;
+}
+
+.plain-text {
+  padding: var(--my-padding);
+}
+
+.low-radius {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+/*global body rules*/
 
 body {
   background-repeat: no-repeat;
