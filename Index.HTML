@@ -25,7 +25,16 @@
         src="IMAGES/DESKTOP LOGO.png"
         alt="A logo for The Community Science Museum. The logo itself consist of a drawing of an atom."
       />
-      <nav class="nav-flex">
+      <!--The checkbox hamburger hack, as explained by MJ Philip in the curriculum-->
+
+      <input type="checkbox" id="menu-checkbox" />
+      <label for="menu-checkbox">
+        <img
+          class="hamburger-menu"
+          src="IMAGES/Hamburger menu.png"
+          alt="A menu for navigating the site"
+      /></label>
+      <nav class="nav-flex burger">
         <ul>
           <li><a class="nav-header" href="index.HTML">HOME</a></li>
           <li>
@@ -57,11 +66,6 @@
           </li>
         </ul>
       </nav>
-      <img
-        class="hamburger-menu"
-        src="IMAGES/Hamburger menu.png"
-        alt="A menu for navigating the site"
-      />
     </header>
     <main>
       <section class="banner-flex">

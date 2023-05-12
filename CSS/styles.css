@@ -28,8 +28,9 @@ label {
 input {
   max-width: 130px;
   border: solid;
-  border-color: var(--my-white);
+  border-color: var(--my-memo-green);
   border-radius: 2px;
+  margin-bottom: 1.5em;
 }
 
 :root {
@@ -183,7 +184,7 @@ footer {
 }
 
 .map img {
-  max-width: 150px;
+  max-width: 100%;
 }
 
 .map img:hover {
@@ -198,13 +199,32 @@ a {
   list-style-type: none;
 }
 
+/*hamburger menu, checkbox hack as demonstrated by MJ Philip in the curriculum*/
+.burger,
+#menu-checkbox {
+  display: none;
+}
+
+#menu-checkbox:checked ~ .burger {
+  display: block;
+}
+
 /*Media queries*/
 /*header*/
 
 @media only screen and (min-width: 600px) {
+  .header-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
   .nav-flex li {
     display: inline;
+    padding: var(--my-padding);
   }
+}
+@media only screen and (min-width: 1040px) {
   /*footer**/
   footer {
     display: grid;
