@@ -25,12 +25,16 @@ label {
     Arial, sans-serif;
 }
 
-input {
+input,
+textarea {
   max-width: 130px;
   border: solid;
-  border-color: var(--my-memo-green);
-  border-radius: 2px;
+  border-color: var(--my-black);
+  border-radius: 15px;
   margin-bottom: 1.5em;
+  color: gray;
+  font-family: "Spinnaker", sans-serif, "Franklin Gothic Medium", "Arial Narrow",
+    Arial, sans-serif;
 }
 
 :root {
@@ -38,6 +42,11 @@ input {
   --background-gradient: linear-gradient(
     to bottom,
     var(--background-light-blue),
+    var(--my-semi-opaque)
+  );
+  --background-gradient-green: linear-gradient(
+    to bottom,
+    var(--my-green),
     var(--my-semi-opaque)
   );
   --my-green: #00ae70;
@@ -52,6 +61,7 @@ input {
   --my-padding: 1.5em;
   --my-radius: 5px;
   --my-memo-green: #ceedcd;
+  --my-gray: #d9d9d9;
 }
 
 /*reuasable article styling*/

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/CSS/styles.css" rel="stylesheet" />
+    <link href="/CSS/internships.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,57 +21,86 @@
   <body>
     <main>
       <div><h1>INTERNSHIPS & VOLUNTARY WORK</h1></div>
-      <div>
-        <h2>INTERNSHIPS</h2>
-        <p>
-          Are you interested in working in a museum? Do you enjoy the fun and
-          excitement of sharing the wonders of nature with people? Well you
-          could be just the right person to enjoy an internship at the museum.
-          You’ll be learning from a number of different academics and people who
-          are passionate about science and sharing it with the wider community.
-        </p>
-      </div>
-      <div>
-        <h2>RESEARCHERS</h2>
-        <p>
-          Are you looking to get involved with our team of researchers and
-          academics? Our museum offers various ways for you to use our resources
-          and contribute towards them.
-        </p>
-        <p>
-          We have online records, laboratory space, and a working relationship
-          with a number of universities around the country.
-        </p>
-      </div>
-      <div>
-        <h2>VOLUNTEER</h2>
-        <p>
-          A number of people volunteer their time and effort to keep the
-          displays in good order and ready for visitors to come and enjoy.
-        </p>
-        <p>
-          Volunteering has its perks including getting to see behind the scenes
-          of a working museum, access to staff-only lectures, and a monthly
-          lunch where all staff and volunteers come together to discuss ideas
-          for future exhibits and strategies for the museum.
-        </p>
-        <p>
-          You can help volunteer in a number of different spheres. Please
-          contact us if you’d like to find out more about how you can get
-          involved.
-        </p>
-      </div>
-      <div>
+      <figure>
+        <img
+          src="/IMAGES/reception-g640b231a4_1280.jpg"
+          alt="A female sitting in a reception of a modern looking museum."
+          class="img"
+        />
+        <div class="plain-text low-radius">
+          <h2>INTERNSHIPS</h2>
+          <figcaption>
+            Are you interested in working in a museum? Do you enjoy the fun and
+            excitement of sharing the wonders of nature with people? Well you
+            could be just the right person to enjoy an internship at the museum.
+            You’ll be learning from a number of different academics and people
+            who are passionate about science and sharing it with the wider
+            community.
+          </figcaption>
+        </div>
+      </figure>
+      <figure>
+        <img
+          src="/IMAGES/scientist-gf0e0db83d_1280.jpg"
+          alt="A scientist, wearing a white lab coat and a protective hairnet"
+          class="img"
+        />
+        <div class="plain-text low-radius">
+          <h2>RESEARCHERS</h2>
+          <figcaption>
+            Are you looking to get involved with our team of researchers and
+            academics? Our museum offers various ways for you to use our
+            resources and contribute towards them.
+            <p>
+              We have online records, laboratory space, and a working
+              relationship with a number of universities around the country.
+            </p>
+          </figcaption>
+        </div>
+      </figure>
+      <figure>
+        <img
+          src="/IMAGES/luke-ellis-craven-400722-min.jpg"
+          alt="An old man in a red jacket. He is looking out on a hall full of people."
+          class="img"
+        />
+        <div class="low-radius plain-text">
+          <h2>VOLUNTEER</h2>
+          <figcaption>
+            A number of people volunteer their time and effort to keep the
+            displays in good order and ready for visitors to come and enjoy.
+            <p>
+              Volunteering has its perks including getting to see behind the
+              scenes of a working museum, access to staff-only lectures, and a
+              monthly lunch where all staff and volunteers come together to
+              discuss ideas for future exhibits and strategies for the museum.
+            </p>
+            <p>
+              You can help volunteer in a number of different spheres. Please
+              contact us if you’d like to find out more about how you can get
+              involved.
+            </p>
+          </figcaption>
+        </div>
+      </figure>
+      <div class="form1">
         <h2>PLEASE FILL OUT THE FORMS BELOW</h2>
         <p>
           Please enter your email address and some details about yourself using
           the forms below.
         </p>
         <form action="Success.html" class="Forminternship" method="get">
-          <label for="info">Info</label>
-          <input type="text" size="55" maxlength="350" />
+          <label for="user-info">Info</label>
+          <textarea id="user-info" name="user-info" cols="40" rows="10">
+Tell us a little about yourself.</textarea
+          >
           <label for="mail">Email</label>
-          <input type="text" class="mail" placeholder="Example@mail.com" />
+          <input
+            type="text"
+            class="mail"
+            placeholder="Example@mail.com"
+            class="textbox"
+          />
           <label for="phone" class="mobilenumber">Mobile number</label>
           <input type="number" />
           <h2>I am interested in:</h2>
@@ -80,9 +110,8 @@
           <input type="radio" name="radio2" />
           <label for="radio2" name="radio3" class="radio">An internship:</label>
           <input type="radio" name="radio3" />
-          <button type="submit">
-            <a href="Success.html" class="button">SUBMIT</a>
-          </button>
+
+          <a href="Success.html" class="button">SUBMIT</a>
         </form>
       </div>
     </main>

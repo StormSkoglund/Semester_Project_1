@@ -1,0 +1,24 @@
+@import "./styles.css";
+@import "./index.css";
+
+/* unique background image with gradient color overlay, I will add this on all pages, it isn't meant as a repetition */
+
+body {
+  background-image: var(--background-gradient-green);
+}
+
+.largetxt {
+  text-align: center;
+  font-size: xx-large;
+}
+
+img {
+  display: block;
+  max-width: 50%;
+  margin: auto;
+}
+
+p {
+  font-weight: bold;
+  text-align: center;
+}

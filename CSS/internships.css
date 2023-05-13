@@ -1,0 +1,34 @@
+@import "./styles.css";
+@import "./index.css";
+
+/* unique background image with gradient color overlay, I will add this on all pages, it isn't meant as a repetition */
+
+body {
+  background-image: var(--background-gradient),
+    url(/IMAGES/scientific-2040795_1280-min.jpg);
+}
+
+.form1 {
+  background-color: var(--my-gray);
+  border-radius: var(--my-radius);
+}
+
+.form1,
+label,
+input,
+textarea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(-);
+  padding: 1em;
+}
+
+.plain-text {
+  background-color: var(--my-gray);
+}
+
+.img {
+  box-shadow: var(--my-soft-shadow);
+}
