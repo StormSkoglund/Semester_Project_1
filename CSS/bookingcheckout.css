@@ -3,21 +3,26 @@
 @import "./internships.css";
 
 @media only screen and (min-width: 600px) {
-  .form1 {
+  .book,
+  input {
     max-width: 50%;
-    margin: auto;
+    margin: 1.5em auto;
   }
 
-  .flex-2 {
+  .book {
+    font-size: x-large;
+  }
+
+  .booking {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: 5em;
   }
 
   figure {
-    max-width: 40%;
+    max-width: 30%;
     margin: 2em;
   }
 }

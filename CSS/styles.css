@@ -196,11 +196,11 @@ footer {
 }
 
 .map img {
-  max-width: 100%;
+  max-width: 70%;
 }
 
 .map img:hover {
-  max-width: 250px;
+  max-width: 100%;
   opacity: 90%;
 }
 

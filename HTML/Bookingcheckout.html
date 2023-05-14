@@ -18,6 +18,54 @@
       content="This is where our visitors book their tours or seats for upcoming lectures or other events."
     />
   </head>
+  <header class="header-flex">
+    <img
+      class="logo"
+      src="/IMAGES/DESKTOP LOGO.png"
+      alt="A logo for The Community Science Museum. The logo itself consist of a drawing of an atom."
+    />
+    <!--The checkbox hamburger hack, as explained by MJ Philip in the curriculum-->
+
+    <input type="checkbox" id="menu-checkbox" />
+    <label for="menu-checkbox">
+      <img
+        class="hamburger-menu"
+        src="/IMAGES/Hamburger menu.png"
+        alt="A menu for navigating the site"
+    /></label>
+    <nav class="nav-flex burger">
+      <ul>
+        <li><a class="nav-header" href="/index.HTML">HOME</a></li>
+        <li>
+          <a class="nav-header" href="/HTML/Exhibitions.html">EXHIBITIONS</a>
+        </li>
+        <li>
+          <a class="nav-header" href="/HTML/Youngstarsclub.html">FOR KIDS</a>
+        </li>
+        <li>
+          <a class="nav-header" href="/HTML/Bookingsystem.html"
+            >SPECIAL EVENTS</a
+          >
+        </li>
+        <li>
+          <a class="nav-header" href="/HTML/Internships.html"
+            >INTERNSHIPS & VOLUNTEERS</a
+          >
+        </li>
+        <li>
+          <a class="nav-header" href="/HTML/Bookingcheckout.html">BOOKING</a>
+        </li>
+        <li>
+          <a class="nav-header" href="/HTML/Support.html">DONATIONS</a>
+        </li>
+        <li>
+          <a class="nav-header" href="/HTML/Practicalinfo.html"
+            >PRACTICAL INFO</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </header>
   <body>
     <main>
       <section class="banner-flex">
@@ -29,7 +77,7 @@
         </div>
         <h1>BOOKING</h1>
       </section>
-      <div class="flex-2">
+      <div class="flex-2 booking">
         <figure>
           <img
             src="/IMAGES/open-science-735787-min.jpg"
@@ -41,7 +89,7 @@
             <figcaption>Please fill out the form.</figcaption>
           </div>
         </figure>
-        <div class="form1">
+        <div class="form1 book">
           <h2>I am interested in booking:</h2>
           <form action="Success.html" class="radio2" method="get">
             <label for="radio1" class="radio2"
@@ -50,7 +98,7 @@
             <input type="radio" name="radio1" />
 
             <label for="radio2" class="radio2"
-              >A tour with Night At the Museum:
+              >A tour: Night At the Museum.
             </label>
             <input type="radio" name="radio2" />
 
@@ -64,5 +112,66 @@
         </div>
       </div>
     </main>
+    <footer class="footer-flex">
+      <section class="grid1">
+        <h2 class="fontsize">GET INVOLVED</h2>
+        <ul class="navfooter">
+          <li><a href="HTML/Support.html">SUPPORT</a></li>
+          <li><a href="HTML/Internships.html">VOLUNTEER</a></li>
+          <li><a href="HTML/Internships.html">INTERNSHIPS</a></li>
+        </ul>
+      </section>
+      <div class="grid2">
+        <h2 class="fontsize">VISIT</h2>
+        <h2>LOCATION</h2>
+        <p>The museum is located at Muséplassen 123, 5007 Bergen.</p>
+      </div>
+      <figure class="map grid3">
+        <a href="/HTML/Practicalinfo.html"
+          ><img
+            src="/IMAGES/MAP.png"
+            alt="A map of Bergen city, a red marker points out Muséplassen, the location of the museum."
+        /></a>
+        <figcaption>Click to enlarge</figcaption>
+      </figure>
+      <div class="grid4">
+        <h2>HOURS</h2>
+        <p>
+          Monday: Closed Tuesday: 10:00 – 16:00 Wednesday: 10:00 – 16:00
+          Thursday: 10:00 – 16:00 Friday: 10:00 – 19:00 Saturday: 9:00 – 16:00
+          Sunday: 9:00 – 13:00
+        </p>
+      </div>
+      <div class="grid5">
+        <h2>CONTACT</h2>
+        <p>PHONE: +47 123 44 321 EMAIL: Comscmu@gmail.com</p>
+      </div>
+      <div class="grid6">
+        <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
+        <p>
+          Be the first to know about our upcoming exhibitions and special
+          events.
+        </p>
+        <p>Subscribe to our newsletter using the form below!</p>
+        <form action="HTML/Success.html" method="get">
+          <label for="mail">Email</label>
+          <input type="email" placeholder="Example@mail.com" />
+
+          <a href="HTML/Success.html" class="button">SUBMIT</a>
+        </form>
+      </div>
+      <div class="grid7">
+        <h2>FOLLOW THE COMMUNITY SCIENCE MUSEUM ON SOCIAL MEDIA:</h2>
+        <img
+          src="/IMAGES/FACE.png"
+          alt="The facebook logo, which the letter f. The color of the logo is white"
+          class="SoMe"
+        /><img
+          src="/IMAGES/INSTA.png"
+          alt="The logo for Instagram. It is a white box with a circle in it. It resembles a camera."
+          class="SoMe"
+        />
+      </div>
+    </footer>
   </body>
 </html>

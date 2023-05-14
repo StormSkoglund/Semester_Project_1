@@ -139,6 +139,11 @@ body {
   transform: rotate(45deg);
 }
 
+.SoMe {
+  max-width: 40px;
+  padding: 0.5em;
+}
+
 @media only screen and (min-width: 1000px) {
   .homegrid {
     display: grid;

@@ -18,7 +18,9 @@ body {
   border-bottom-right-radius: 150px;
   border-bottom-left-radius: 70px;
   box-shadow: var(--my-soft-shadow);
-  margin-bottom: 2em;
+  margin-bottom;
+  max-width: 50%;
+  margin:auto;
 }
 
 .emblem {
@@ -38,4 +40,10 @@ body {
   max-width: 50%;
   display: block;
   margin: auto;
+}
+
+.young {
+  max-width: 50%;
+  margin: auto;
+  text-align: center;
 }
