@@ -27,3 +27,10 @@ body {
   box-shadow: var(--my-soft-shadow);
   transform: (-1deg);
 }
+
+.flex-info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}

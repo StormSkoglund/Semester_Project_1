@@ -19,15 +19,20 @@ img {
 }
 
 @media only screen and (min-width: 600px) {
-  .flex-int {
+  .flex-sup {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: space-around;
   }
   figure {
     max-width: 50%;
     margin: auto;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  figure {
+    max-width: 30%;
   }
 }

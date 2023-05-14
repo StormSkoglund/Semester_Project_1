@@ -38,19 +38,19 @@ body {
   max-width: 80%;
 }
 
-@media only screen and (min-width: 600px) {
-  figure,
-  .article4,
-  .med1,
-  .evo2,
-  .bio1 {
-    max-width: 25%;
-  }
+@media only screen and (min-width: 1000px) {
   .flex-ex {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
+  }
+  figure,
+  .article4,
+  .med1,
+  .evo2,
+  .bio1 {
+    max-width: 25%;
   }
 }
