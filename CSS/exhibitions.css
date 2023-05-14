@@ -37,3 +37,20 @@ body {
   transform: rotate(2deg);
   max-width: 80%;
 }
+
+@media only screen and (min-width: 600px) {
+  figure,
+  .article4,
+  .med1,
+  .evo2,
+  .bio1 {
+    max-width: 25%;
+  }
+  .flex-ex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+}

@@ -7,17 +7,17 @@
     max-width: 50%;
     margin: auto;
   }
-}
 
-@media only screen and (min-width: 1000px) {
   .flex-2 {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    align-items: flex-start;
     justify-content: space-around;
+    margin: 5em;
   }
 
-  .form1 {
+  figure {
     max-width: 40%;
+    margin: 2em;
   }
 }
