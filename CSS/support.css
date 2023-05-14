@@ -1,0 +1,33 @@
+@import "./styles.css";
+@import "./index.css";
+@import "./internships.css";
+
+/* unique background image with gradient color overlay, I will add this on all pages, it isn't meant as a repetition */
+
+body {
+  background-image: var(--background-gradient),
+    url(/IMAGES/scott-webb-102825-min.jpg);
+}
+
+.form1 {
+  max-width: 50%;
+  margin: 2% auto;
+}
+
+img {
+  background-color: var(--background-gradient);
+}
+
+@media only screen and (min-width: 600px) {
+  .flex-int {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  figure {
+    max-width: 50%;
+    margin: auto;
+  }
+}

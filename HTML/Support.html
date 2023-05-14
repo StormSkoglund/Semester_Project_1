@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/CSS/styles.css" rel="stylesheet" />
+    <link href="/CSS/support.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,46 +21,54 @@
   <body>
     <main>
       <div><h1>SUPPORT</h1></div>
-      <figure></figure>
-      <div>
-        <h2>SUPPORT</h2>
-        <p>
-          There are various ways you can support the museum. Donations are very
-          welcome and are an important way we keep this museum open and
-          accessible to the whole community.
-        </p>
-        <p>
-          You can also support us by donating items of interest to the museum’s
-          collections. If you have some item or collection that you think others
-          would enjoy, please let us know by contacting our Collections
-          Department and they will be able to assist you.
-        </p>
-        <div>
-          <h2>DO YOU WANT TO MAKE A DONATION?</h2>
-          <p>
-            Please enter your email address and some details about yourself
-            using the forms below.
-          </p>
-        </div>
-        <div>
-          <form action="Success.html" class="Formdonate" method="get">
-            <label for="Info">Information</label>
-            <input
-              type="text"
-              class="Info"
-              placeholder="Tell us about yourself."
-              maxlength="350"
-              size="55"
-            />
-            <label for="mail">Email</label>
-            <input type="email" class="mail" placeholder="Example@mail.com" />
-            <label for="mobilenumber">Mobile number</label>
-            <input type="number" name="mobile number" id="mobile number" />
-            <but class="Formdonate"
-              ><a href="Success.html" class="button">SUBMIT</a></but
-            >
-          </form>
-        </div>
+
+      <div class="flex-int">
+        <figure>
+          <img
+            src="/IMAGES/asking-g78547b289_1280.png"
+            alt="A stylized drawing in black and white of a hand, reaching out humbly and begging for something"
+            class="img"
+          />
+          <div class="plain-text low-radius">
+            <h2>SUPPORT</h2>
+            <figcaption>
+              There are various ways you can support the museum. Donations are
+              very welcome and are an important way we keep this museum open and
+              accessible to the whole community.
+
+              <p>
+                You can also support us by donating items of interest to the
+                museum’s collections. If you have some item or collection that
+                you think others would enjoy, please let us know by contacting
+                our Collections Department and they will be able to assist you.
+              </p>
+            </figcaption>
+          </div>
+        </figure>
+        <section>
+          <div class="form1">
+            <h2>DO YOU WANT TO MAKE A DONATION?</h2>
+            <p>
+              Please enter your email address and some details about yourself
+              using the forms below.
+            </p>
+          </div>
+          <div class="form1">
+            <form action="Success.html" class="Formdonate" method="get">
+              <label for="user-info">Information</label>
+              <textarea rows="5" cols="40" name="user-info" id="user-info">
+Tell us about yourself.</textarea
+              >
+              <label for="mail">Email</label>
+              <input type="email" class="mail" placeholder="Example@mail.com" />
+              <label for="mobilenumber">Mobile number</label>
+              <input type="number" name="mobile number" id="mobile number" />
+              <but class="Formdonate"
+                ><a href="Success.html" class="button">SUBMIT</a></but
+              >
+            </form>
+          </div>
+        </section>
       </div>
     </main>
   </body>
