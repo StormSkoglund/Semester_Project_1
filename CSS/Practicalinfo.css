@@ -1,0 +1,29 @@
+@import "./styles.css";
+@import "./index.css";
+@import "./internships.css";
+@import "./exhibitions.css";
+
+/* unique background image with gradient color overlay, I will add this on all pages, it isn't meant as a repetition */
+
+body {
+  background-image: var(--background-gradient-green);
+}
+
+.img {
+  box-shadow: none;
+}
+
+.sticker {
+  max-width: 80%;
+  margin: auto;
+  transform: rotate(1deg);
+  box-shadow: var(--my-soft-shadow);
+  border-bottom-left-radius: 10%;
+}
+
+.evo2 {
+  max-width: 40%;
+  margin: 1em auto;
+  box-shadow: var(--my-soft-shadow);
+  transform: (-1deg);
+}
