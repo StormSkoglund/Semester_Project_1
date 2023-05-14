@@ -1,0 +1,22 @@
+@import "./styles.css";
+@import "./index.css";
+@import "./internships.css";
+
+/* unique background image with gradient color overlay, I will add this on all pages, it isn't meant as a repetition */
+
+body {
+  background-image: var(--background-gradient),
+    url(/IMAGES/exhibition-1863344_1920.jpg);
+}
+
+@media only screen and (min-width: 600px) {
+  .flex-int {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+  }
+  figure {
+    margin: 0.5em;
+  }
+}

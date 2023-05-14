@@ -169,4 +169,12 @@ body {
     grid-column: 8/13;
     grid-row: 10;
   }
+
+  .jungle {
+    max-width: fit-content;
+  }
+  .jungle:hover {
+    max-width: fit-content;
+    filter: sepia(50%);
+  }
 }

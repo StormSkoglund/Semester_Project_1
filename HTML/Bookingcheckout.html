@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/CSS/styles.css" rel="stylesheet" />
+    <link href="/CSS/bookingcheckout.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,32 +20,40 @@
   </head>
   <body>
     <main>
-      <div><h1>Booking</h1></div>
-      <div>
-        <h2>BOOKING</h2>
-        <p>Please fill out the form on the right.</p>
-      </div>
-      <div>
-        <h2>I am interested in booking:</h2>
-        <form action="Success.html" class="radio2" method="get">
-          <label for="radio1" class="radio2"
-            >A seat at the Cosmology Lecture:</label
-          >
-          <input type="radio" name="radio1" />
+      <h1>Booking</h1>
+      <div class="flex-2">
+        <figure>
+          <img
+            src="/IMAGES/open-science-735787-min.jpg"
+            alt="The logo for the museum. It's a green orb that resembles an atom."
+            class="img"
+          />
+          <div class="plain-text low-radius">
+            <h2>BOOKING</h2>
+            <figcaption>Please fill out the form.</figcaption>
+          </div>
+        </figure>
+        <div class="form1">
+          <h2>I am interested in booking:</h2>
+          <form action="Success.html" class="radio2" method="get">
+            <label for="radio1" class="radio2"
+              >A seat at the Cosmology Lecture:</label
+            >
+            <input type="radio" name="radio1" />
 
-          <label for="radio2" class="radio2"
-            >A tour with Night At the Museum:
-          </label>
-          <input type="radio" name="radio2" />
+            <label for="radio2" class="radio2"
+              >A tour with Night At the Museum:
+            </label>
+            <input type="radio" name="radio2" />
 
-          <label for="radio3" class="radio2">A guided school tour:</label>
-          <input type="radio" name="radio3" />
-          <label for="mail">Email</label>
-          <input type="email" placeholder="Example@mail.com" />
-          <button type="submit">
+            <label for="radio3" class="radio2">A guided school tour:</label>
+            <input type="radio" name="radio3" />
+            <label for="mail">Email</label>
+            <input type="email" placeholder="Example@mail.com" />
+
             <a href="Success.html" class="button">SUBMIT</a>
-          </button>
-        </form>
+          </form>
+        </div>
       </div>
     </main>
   </body>
