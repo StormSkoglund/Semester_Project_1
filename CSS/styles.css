@@ -25,16 +25,43 @@ label {
     Arial, sans-serif;
 }
 
-input,
-textarea {
-  max-width: 130px;
-  border: solid;
+input {
+  /*max-width: 130px;*/
+
   border-color: var(--my-black);
   border-radius: 15px;
   margin-bottom: 1.5em;
   color: gray;
   font-family: "Spinnaker", sans-serif, "Franklin Gothic Medium", "Arial Narrow",
     Arial, sans-serif;
+}
+
+.form1 {
+  background-color: var(--my-gray);
+  border-radius: var(--my-radius);
+  max-width: 50%;
+  margin: 2% auto;
+}
+
+.form1,
+input,
+textarea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(-);
+  padding: 1em;
+  max-width: 100%;
+}
+
+textarea {
+  max-width: 200px;
+}
+
+::placeholder {
+  font-size: smaller;
+  font-weight: bolder;
 }
 
 :root {
@@ -120,6 +147,10 @@ header li {
   font-weight: bold;
 }
 
+.position {
+  font-size: xx-large;
+}
+
 header ul {
   border: solid var(--my-black);
   border-radius: 5px;
@@ -145,15 +176,17 @@ header ul {
   justify-content: baseline;
 }
 
-.hamburger-menu {
-  max-width: 50px;
-  max-height: 50px;
-  margin: 15px;
-}
-
 li:hover {
   text-shadow: 0px 5px 4px var(--my-green);
 }
+
+/*logo animations*/
+.logo:hover {
+  filter: brightness(180%);
+  transition-duration: 500ms;
+  max-width: 98%;
+}
+
 /*banner*/
 .banner-flex {
   background-color: var(--my-dark-blue);
@@ -196,12 +229,12 @@ footer {
 }
 
 .map img {
-  max-width: 70%;
+  max-width: 200px;
 }
 
 .map img:hover {
-  max-width: 100%;
-  opacity: 90%;
+  max-width: 300%;
+  opacity: 80%;
 }
 
 li,
@@ -212,6 +245,19 @@ a {
 }
 
 /*hamburger menu, checkbox hack as demonstrated by MJ Philip in the curriculum*/
+
+.hamburger-menu {
+  max-width: 50px;
+  max-height: 50px;
+  margin: 15px;
+}
+
+.hamburger-menu:hover {
+  transition-duration: 500ms;
+  opacity: 70%;
+  max-width: 95%;
+}
+
 .burger,
 #menu-checkbox {
   display: none;

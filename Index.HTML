@@ -20,11 +20,13 @@
   </head>
   <body>
     <header class="header-flex">
-      <img
-        class="logo"
-        src="IMAGES/DESKTOP LOGO.png"
-        alt="A logo for The Community Science Museum. The logo itself consist of a drawing of an atom."
-      />
+      <a href="index.HTML"
+        ><img
+          class="logo"
+          src="IMAGES/DESKTOP LOGO.png"
+          alt="A logo for The Community Science Museum. The logo itself consist of a drawing of an atom."
+        />
+      </a>
       <!--The checkbox hamburger hack, as explained by MJ Philip in the curriculum-->
 
       <input type="checkbox" id="menu-checkbox" />
@@ -36,7 +38,9 @@
       /></label>
       <nav class="nav-flex burger">
         <ul>
-          <li><a class="nav-header" href="index.HTML">HOME</a></li>
+          <li>
+            <a class="nav-header position" href="index.HTML">HOME</a>
+          </li>
           <li>
             <a class="nav-header" href="HTML/Exhibitions.html">EXHIBITIONS</a>
           </li>
@@ -166,11 +170,11 @@
           <h2>EVOLUTION</h2>
           <figure>
             <img
-              class="evo"
+              class="evo-img"
               src="IMAGES/skeleton-414543_1920-min.jpg"
               alt="Four skeletons, belonging to early humanoids and a modern human, standing inside a museum-display"
             />
-            <figcaption>
+            <figcaption class="evo-text">
               Over the course of human history, science has developed from our
               early understanding of fire, wind, water, and earth to exploring
               everything from galaxies far away to the very building blocks of

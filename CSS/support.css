@@ -9,11 +9,6 @@ body {
     url(/IMAGES/scott-webb-102825-min.jpg);
 }
 
-.form1 {
-  max-width: 50%;
-  margin: 2% auto;
-}
-
 img {
   background-color: var(--background-gradient);
 }
