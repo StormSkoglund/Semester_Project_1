@@ -229,7 +229,7 @@ footer {
 }
 
 .map {
-  max-width: 200px;
+  max-width: 150px;
 }
 
 .map:hover {
@@ -282,12 +282,16 @@ a {
     padding: var(--my-padding);
   }
 }
-@media only screen and (min-width: 1040px) {
+@media only screen and (min-width: 800px) {
   /*footer**/
   footer {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 10px;
+  }
+
+  .map {
+    max-width: 50px;
   }
 
   .grid1 {
@@ -317,5 +321,10 @@ a {
   .grid7 {
     grid-column: 8/11;
     grid-row: 2;
+  }
+}
+@media only screen and (min-width: 1070px) {
+  .map {
+    max-width: 150px;
   }
 }
