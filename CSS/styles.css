@@ -116,7 +116,7 @@ body {
 /*button and its animations*/
 .button {
   background-color: var(--my-green);
-  color: var(--my-white);
+  color: var(--my-black);
   padding: 10px;
   font-weight: bold;
   text-decoration: none;

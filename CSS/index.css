@@ -104,6 +104,11 @@ body {
 
 .btn2 {
   background-color: var(--my-red);
+  color: var(--my-white);
+}
+
+.black-text {
+  color: var(--my-black);
 }
 
 .kids {
