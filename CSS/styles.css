@@ -228,11 +228,11 @@ footer {
   padding: 5px;
 }
 
-.map img {
+.map {
   max-width: 200px;
 }
 
-.map img:hover {
+.map:hover {
   max-width: 300%;
   opacity: 80%;
 }
