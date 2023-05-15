@@ -18,9 +18,9 @@ body {
   border-bottom-right-radius: 150px;
   border-bottom-left-radius: 70px;
   box-shadow: var(--my-soft-shadow);
-  margin-bottom;
+  margin-bottom: 1em;
   max-width: 50%;
-  margin:auto;
+  margin: auto;
 }
 
 .emblem {
