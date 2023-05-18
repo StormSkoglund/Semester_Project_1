@@ -363,6 +363,6 @@ a {
 
 @media only screen and (min-width: 1745px) {
   .nav-flex li {
-    padding: 1em;
+    padding: 0.2em;
   }
 }
