@@ -353,15 +353,10 @@ a {
 
   .nav-flex li {
     display: inline;
-    padding: 0em;
+    padding: 0.5em;
   }
 
   .hamburger-menu {
     display: none;
-  }
-}
-
-@media only screen and (min-width: 1745px) {
-  .nav-flex li {
   }
 }
