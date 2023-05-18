@@ -353,7 +353,7 @@ a {
 
   .nav-flex li {
     display: inline;
-    padding: 0.5;
+    padding: 0em;
   }
 
   .hamburger-menu {
@@ -363,6 +363,5 @@ a {
 
 @media only screen and (min-width: 1745px) {
   .nav-flex li {
-    padding: 0em;
   }
 }
