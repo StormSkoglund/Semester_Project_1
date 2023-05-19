@@ -29,11 +29,12 @@ input {
   /*max-width: 130px;*/
 
   border-color: var(--my-black);
-  border-radius: 15px;
+  border-radius: 7px;
   margin-bottom: 1.5em;
-  color: gray;
+  color: rgb(81, 80, 80);
   font-family: "Spinnaker", sans-serif, "Franklin Gothic Medium", "Arial Narrow",
     Arial, sans-serif;
+  padding: 0.5em;
 }
 
 .form1 {
