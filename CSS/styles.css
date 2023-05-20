@@ -374,10 +374,9 @@ a {
     justify-content: space-between;
   }
 
-  
-
   .nav-flex li {
     display: inline;
     padding: 1em;
     font-size: medium;
+  }
 }
