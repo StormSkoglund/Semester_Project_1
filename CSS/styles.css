@@ -327,6 +327,27 @@ a {
   .map {
     max-width: 150px;
   }
+  .header-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .nav-flex li {
+    display: inline;
+    padding: 0.15em;
+    font-size: small;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+    position: static;
+    margin-right: 1em;
+  }
 }
 
 @media only screen and (min-width: 1400px) {
@@ -344,6 +365,7 @@ a {
   .burger {
     display: block;
     position: static;
+    margin-right: 1em;
   }
 
   .header-flex {
@@ -352,12 +374,10 @@ a {
     justify-content: space-between;
   }
 
+  
+
   .nav-flex li {
     display: inline;
-    padding: 0.5em;
-  }
-
-  .hamburger-menu {
-    display: none;
-  }
+    padding: 1em;
+    font-size: medium;
 }
