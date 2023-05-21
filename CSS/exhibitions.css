@@ -15,6 +15,10 @@ body {
   max-width: 100%;
 }
 
+.robot-text {
+  max-width: 40;
+}
+
 .evo2 {
   background-color: var(--my-memo-green);
 }

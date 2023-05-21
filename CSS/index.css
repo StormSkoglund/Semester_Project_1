@@ -186,12 +186,24 @@ body {
     grid-row: 10;
   }
 
-  /* palm leafs*/
+  .jungle {
+    max-width: 50px;
+    max-height: 200px;
+  }
+  .jungle:hover {
+    transform: rotate(310deg);
+    transition-duration: 400ms;
+    max-width: 40px;
+    transition-delay: 100ms;
+  }
+}
+@media only screen and (min-width: 1295px) {
   .jungle {
     max-width: fit-content;
   }
   .jungle:hover {
     max-width: fit-content;
     filter: sepia(50%);
+    max-width: fit-content;
   }
 }
