@@ -16,6 +16,7 @@ How to launch my site:
 
 Please install the "Live Server" Plugin via your extensions menu in Visual Studio Code, or copy the path of the index.html file and paste it directly in your browser. You can also drag and drop the index.html into your browser.
 
+Or go to https://monumental-toffee-0be25e.netlify.app/ to visit the website!
 ## Contact
 
 [My LinkedIn page](https://www.linkedin.com/in/alex-storm-skoglund-13764372/)
