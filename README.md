@@ -1,4 +1,6 @@
+
 # The Community Science Museum
+![Comscimus](https://github.com/StormSkoglund/Semester_Project_1/assets/125978969/c7ae5231-6b11-46ee-97a8-686c2bda5c06)
 My second website.
 
 ## Description
